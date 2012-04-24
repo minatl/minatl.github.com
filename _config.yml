@@ -1,10 +1,9 @@
 ---
-destination : /Users/mreid/Sites/mark.reid.name
 auto        : false
 lsi         : false
 pygments    : true
 permalink   : none
-markdown    : maruku
+markdown    : rdiscount
 
 maruku:
     use_divs: true
