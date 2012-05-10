@@ -3,10 +3,10 @@ tile: tags
 layout: page
 ---
 
-<div id="tag_clund">
+<div id="tag_cloud">
   {% for tag in site.tags %}
   <a href="#{{ tag[0] }}" tile="{{ tag[0] }}" rel="{{ tag[1].size }}">{{ tag[0] }}</a>
-  {% endof %}
+  {% endfor %}
 </div>
 
 <ul class="listing">
